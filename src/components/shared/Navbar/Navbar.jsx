@@ -1,7 +1,4 @@
-
- import logoImg from "../../../assets/logo.png";
-
-
+import logoImg from "../../../assets/logo.png";
 import Image from "next/image";
 import MyLink from "./MyLink";
 import { RiHome2Line, RiTimeLine } from "react-icons/ri";
@@ -35,6 +32,7 @@ const Navbar = () => {
           src={logoImg}
           alt="keenkeeper"
           className="w-[120px] md:w-[141px] h-auto"
+          priority
         />
 
         <ul className="flex flex-wrap justify-center gap-2 items-center">
