@@ -19,3 +19,14 @@ React Toastify:
 Used for showing beautiful, non-blocking toast notifications (alerts).
 React Spinners:
 Provides loading indicators to improve the user experience during data fetching.
+
+3 key features of project:
+
+1.Visual Relationship Analytics
+Track social health through intuitive charts and graphs that categorize interactions—like calls, texts, and meetups—to see where spend time.
+
+2.Chronological Interaction Timeline
+Maintain a complete, searchable history of every touchpoint with friends, ensuring never lose track of when last connected or what discussed.
+
+3.Centralized Social Dashboard
+Manage entire network from a single interface with quick-action stats, connection goals, and a dedicated "Friend Details" view for personalized insights.
