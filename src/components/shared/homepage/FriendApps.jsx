@@ -5,11 +5,12 @@ import React from 'react';
  
 
 const appsPromise = async function () {
-  const res = await fetch("http://localhost:3000/data.json");
+  const res = await fetch("https://keen-keeper-next-two.vercel.app/data.json",{ cache: 'no-store' });
   await new Promise((resolve) => setTimeout(resolve, 2000));
   const data = await res.json();
   return data;
 };
+
 
 const FriendApps = async ({ from }) => {
   const apps = await appsPromise();

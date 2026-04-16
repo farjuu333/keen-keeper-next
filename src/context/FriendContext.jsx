@@ -28,7 +28,7 @@ export const FriendProvider = ({ children }) => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const res = await fetch("http://localhost:3000/data.json");
+        const res = await fetch("https://keen-keeper-next-two.vercel.app/data.json",{ cache: 'no-store' });
         const data = await res.json();
         setFriends(data);
       } catch (error) {
